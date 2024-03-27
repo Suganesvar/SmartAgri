@@ -1,0 +1,151 @@
+.containerhome{
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.wel{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    text-shadow: 0 0 2px black;
+}
+.wel2{
+    color: white;
+    text-align: center;
+    padding-bottom: 7rem;
+    font-size: 1.2rem;
+    text-shadow: 0 0 2px black;
+}
+.login{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.loginn{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-shadow: 0 0 .5rem black;
+}
+.loginn:hover{
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.7);
+}
+body{
+    background-image: url(./Images/bglap.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat; 
+}
+.containerlogin{
+    margin: 5rem;
+}
+.logwel{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 4rem;
+}
+#login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.login-form-field::placeholder {
+    color: #3a3a3a;
+    text-align: center;
+}
+input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+}
+input:focus {
+    background-color: white;
+    transform: scale(1.05);
+}
+input:hover{
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.7);
+}
+/* .options a{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.options a:focus{
+    background-color: white;
+    transform: scale(1.05);
+}
+.options a:hover{
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.7);
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 50px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+}
+.mopt{
+    margin: 5rem;
+} */
+.mopt{
+    margin: 5rem;
+}
+.mhopt{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 2rem;
+}
+.mhopt a{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.mhopt a:hover{
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.7);
+}
+.mhopt a:focus{
+    background-color: white;
+    transform: scale(1.05);
+}
+.tcont{
+    margin: 5rem;
+}
+.tgrapg{
+    display: grid;
+    justify-content: center;
+}
+.tgraph iframe{
+    align-items: center;
+    justify-content: center;
+
+}
+
+
